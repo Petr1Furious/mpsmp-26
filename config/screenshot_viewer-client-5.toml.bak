@@ -50,7 +50,7 @@
 	renderScreenshotElementFontShadow = true
 	#Screenshot Manager Customization
 	#The path to the folder containing the screenshots images that will be displayed in the screen.
-	screenshotsFolder = "/Users/petrtsopa/Library/Application Support/FjordLauncher/instances/BasePack Forge 1.21.1/minecraft/screenshots"
+	screenshotsFolder = "/Users/petrtsopa/Library/Application Support/FjordLauncher/instances/mpsmp-26/minecraft/screenshots"
 
 [screenshot_thumbnails]
 	#If set to none, will not generate any thumbnails. Controls the downscale ratio between a screenshot image and its thumbnail.
@@ -58,4 +58,4 @@
 	compression_ratio = "NONE"
 	#Screenshot Thumbnails
 	#The path to the folder containing the screenshots thumbnails that will be displayed in the screen.
-	screenshotsFolder = "/Users/petrtsopa/Library/Application Support/FjordLauncher/instances/BasePack Forge 1.21.1/minecraft/screenshots/thumbnails"
+	screenshotsFolder = "/Users/petrtsopa/Library/Application Support/FjordLauncher/instances/mpsmp-26/minecraft/screenshots/thumbnails"

@@ -1,0 +1,16 @@
+filename = 'aeroworks-1.2.6.jar'
+name = 'Create: Aeroworks'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8a366080ccb896e319058a3c6cf13d774176baba16c118a3d7c5e736cfd6260e4981050060fba64024e67c096fbdcd1341a0bbc4ddb0385fd0bf40f4ebbbf9f0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/oGh45VSL/versions/oo4WuLNd/aeroworks-1.2.6.jar'
+
+[update.modrinth]
+mod-id = 'oGh45VSL'
+version = 'oo4WuLNd'

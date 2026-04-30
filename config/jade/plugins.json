@@ -52,6 +52,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
   "jadeaddons": {
     "equipment_requirement": ""
   },
@@ -72,15 +75,11 @@
     "entity": true,
     "entity_variant": true
   },
-  "mekanism": {
-    "chemical": true,
-    "remove_builtin": true,
-    "fluid": true,
-    "energy": true,
-    "tooltip_renderer": true
-  },
   "jadeaddons.lootr": {
     "info": true
+  },
+  "supplementaries": {
+    "hat_stand": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -92,6 +91,14 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
+  },
+  "extendedae": {
+    "jade_chamber": true,
+    "jade_wireless": true
+  },
+  "appliedcreate": {
+    "grid_node_state": true,
+    "power_storage": true
   },
   "balm": {
     "jade": true

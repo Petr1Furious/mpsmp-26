@@ -1,33 +1,28 @@
 ==== Connector Mixin Patch Audit Summary ====
-Successful: 5
-Partial: 0
-Failed: 0
-Success rate: 100.00%        Accuracy: 100.00%
+Successful: 3
+Partial: 1
+Failed: 1
+Success rate: 80.00%        Accuracy: 70.00%
 =============================================
 
-Mixin method net/id/paradiselost/mixin/client/render/EntityModelsMixin registerExtraModelData(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lcom/google/common/collect/ImmutableMap$Builder;)V
-  >> Using org.sinytra.adapter.transform.preprocess.LocalCaptureUpgradeTransformer
-     - Upgrade captured locals
+=============== Failed mixins ===============
+fi/dy/masa/tweakeroo/mixin/freecam/MixinInGameHud_freeCam tweakeroo_overrideHeldItemTooltipRendering(Lnet/minecraft/client/gui/GuiGraphics;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V
+=============================================
 
-Mixin method net/id/paradiselost/mixin/block/FlowerPotBlockMixin init(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V
-  >> Using org.sinytra.adapter.patch.processor.PropertyProcessor
-     - Set property 'method' to: MethodQualifier[owner=Lnet/minecraft/world/level/block/FlowerPotBlock;, name=<init>, desc=(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V]
-     - Set property 'at' to: AtData{value=TAIL}
+Mixin method io/wispforest/lavender/mixin/HeldItemRendererMixin injectMap(ZLnet/minecraft/client/player/AbstractClientPlayer;FFLnet/minecraft/world/InteractionHand;FLnet/minecraft/world/item/ItemStack;)Z
+  >> Using org.sinytra.adapter.patch.transformer.operation.unit.ModifyMixinType
+     - Modify type to Lorg/sinytra/adapter/runtime/inject/ModifyInstanceofValue;
 
-Mixin method net/id/paradiselost/mixin/block/FlowerPotBlockMixin onUseWithItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
-  >> Using org.sinytra.adapter.patch.processor.PropertyProcessor
-     - Set property 'method' to: MethodQualifier[owner=Lnet/minecraft/world/level/block/FlowerPotBlock;, name=useItemOn, desc=(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/ItemInteractionResult;]
-     - Set property 'at' to: AtData{value=HEAD}
+Mixin method dev/enjarai/trickster/mixin/BeaconBlockEntityMixin colorBlockColor(Lnet/minecraft/world/item/DyeColor;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/Level;)I
+  >> Using org.sinytra.adapter.patch.transformer.operation.unit.ModifyMethodAccess
+     - Removing access modifier 8
+  >> Using org.sinytra.adapter.patch.transformer.operation.unit.ExtractMixin
+     - Extract mixin to target net/neoforged/neoforge/common/extensions/IBlockExtension
+     - Remove original method
+  >> Using org.sinytra.adapter.patch.transformer.operation.unit.ModifyInjectionTarget
+     - Change mixin target to [connector_getTextureDiffuseColor]
 
-Mixin method net/id/paradiselost/mixin/block/FlowerPotBlockMixin onUse(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/phys/BlockHitResult;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
-  >> Using org.sinytra.adapter.patch.processor.PropertyProcessor
-     - Set property 'method' to: MethodQualifier[owner=Lnet/minecraft/world/level/block/FlowerPotBlock;, name=useWithoutItem, desc=(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;]
-     - Set property 'at' to: AtData{value=RETURN}
-
-Mixin method net/id/paradiselost/mixin/server/EntityTrackerEntryMixin sendPackets(Lnet/minecraft/server/level/ServerPlayer;Ljava/util/function/Consumer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V
-  >> Using org.sinytra.adapter.patch.processor.PropertyProcessor
-     - Set property 'method' to: MethodQualifier[owner=null, name=sendPairingData, desc=(Lnet/minecraft/server/level/ServerPlayer;Lnet/neoforged/neoforge/network/bundle/PacketAndPayloadAcceptor;)V]
-     - Set property 'at' to: AtData{value=HEAD}
-  >> Using org.sinytra.adapter.patch.processor.ParametersProcessor
-     - Change descriptor to (Lnet/minecraft/server/level/ServerPlayer;Lnet/neoforged/neoforge/network/bundle/PacketAndPayloadAcceptor;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V
+Mixin method me/pepperbell/continuity/client/mixin/FallingBlockEntityRendererMixin continuity$beforeRenderModel(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V
+  >> Using org.sinytra.adapter.patch.transformer.operation.unit.ModifyInjectionPoint
+     - Change injection point to Lnet/minecraft/client/renderer/block/BlockRenderDispatcher;getBlockModel(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/client/resources/model/BakedModel;
 
