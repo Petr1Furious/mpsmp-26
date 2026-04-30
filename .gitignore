@@ -22,3 +22,6 @@ config/spark/
 *.disabled
 mods/unpacked/
 resourcepacks/unpacked/
+
+.DS_Store
+mods/.connector/
