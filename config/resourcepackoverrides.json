@@ -1,0 +1,7 @@
+{
+  "schema_version": "2",
+  "default_packs": [
+    "file/Icon Xaero's 1.22.zip",
+    "continuity:default"
+  ]
+}
