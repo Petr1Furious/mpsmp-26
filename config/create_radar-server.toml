@@ -1,0 +1,128 @@
+#.
+#Maximum possible distance in blocks between radar links in blocks
+# Default: 128
+# Range: > 1
+radarLinkRange = 128
+#.
+#Maximum size of monitor MultiBlock
+# Default: 9
+# Range: > 1
+monitorMaxSize = 9
+#.
+#Turn rate of radar guidance for CBCMW Missiles
+# Default: 0.15000000596046448
+# Range: 0.0 ~ 1.0
+radarGuidanceTurnRate = 0.15000000596046448
+#.
+#The firing delay used in leading calculation. Higher values may prove useful in laggy environments
+# Default: 0
+# Range: 0 ~ 1000
+firingDelay = 0
+#.
+#Increases the max Rotational speed of phys bearings controlled by Pitch/Yaw controllers
+# Default: 25.0
+# Range: 2.0 ~ 25.0
+controllerPhysbearingMaxSpeed = 25.0
+#.
+#The range at which the binocular can acquire a target
+# Default: 512
+# Range: 1 ~ 1000
+binocularRange = 512
+
+#.
+#Configs for radar bearing and radar stats
+[radarStatsConfig]
+	#.
+	#Maximum range of a Radar Contraption in blocks
+	# Default: 1000
+	# Range: > 1
+	maxRadarRange = 1000
+	#.
+	#Maximum vertical scan range of a radar in blocks
+	# Default: 20
+	# Range: > 1
+	radarYScanRange = 20
+	#.
+	#Base range of a radar receiver in blocks
+	# Default: 0
+	# Range: > 0
+	radarBaseRange = 0
+	#.
+	#Range increase per dish block in blocks
+	# Default: 16
+	# Range: > 1
+	dishRangeIncrease = 16
+	#.
+	#increases the range of the plane radar(in blocks)
+	# Default: 250
+	# Range: 1 ~ 1000
+	planeRadarRange = 250
+	#.
+	#If true, radar bearings will rotate slower the more dishes are connected to them
+	gearRadarBearingSpeed = false
+	#.
+	#Field of view of a radar in degrees
+	# Default: 90
+	# Range: 1 ~ 360
+	radarFOV = 90
+	#.
+	#Multiplier for the radar rotation speed (scanning logic only)
+	# Default: 2.0
+	# Range: 1.0 ~ 10.0
+	radarRotationMultiplier = 2.0
+	#.
+	#Multiplier for the physical rotation speed of radar bearings
+	# Default: 2.0
+	# Range: 1.0 ~ 10.0
+	radarSpeedMultiplier = 2.0
+
+#.
+#Configs for weapon aiming and firing
+[weaponControlConfig]
+	#.
+	#Angular tolerance in degrees for the cannon to fire. Higher values allow firing even if not perfectly aimed.
+	# Default: 10.0
+	# Range: 0.10000000149011612 ~ 10.0
+	autoFireTolerance = 10.0
+	#.
+	#The maximum target movement in blocks between ticks to consider the aim stable.
+	# Default: 5.0
+	# Range: 0.10000000149011612 ~ 10.0
+	autoFireStabilityEps = 5.0
+	#.
+	#How many ticks the aim must be stable before firing. Set to 0 for instant firing.
+	# Default: 0
+	# Range: 0 ~ 100
+	autoFireStabilityTicks = 0
+	#.
+	#Additional lead time in ticks to compensate for network and processing delays. Increase if hitting the tail.
+	# Default: 3.0
+	# Range: 0.0 ~ 20.0
+	autoFireLatencyTicks = 3.0
+	#.
+	#Multiplies the calculated lead. Use > 1.0 if hitting the tail, < 1.0 if overshooting.
+	# Default: 1.2000000476837158
+	# Range: 0.10000000149011612 ~ 5.0
+	autoFireLeadMultiplier = 1.2000000476837158
+	#.
+	#Vertical/Horizontal aim offset in blocks for fine tuning.
+	# Default: 0.0
+	# Range: -10.0 ~ 10.0
+	autoFireAimOffset = 0.0
+
+#.
+#Configs for the guided fuze
+[guidedFuzeConfig]
+	#.
+	#The size of the cone the guided fuze can track targets from. Values are in degrees and are bi-directional
+	# Default: 30.0
+	# Range: 1.0 ~ 180.0
+	guidedFuzeMaxSeekDegrees = 30.0
+	#.
+	#The maximum number of degrees per tick the guided fuze can correct its course
+	# Default: 3.0
+	# Range: 1.0 ~ 3.4028234663852886E38
+	guidedFuzeMaxDegreesPerTick = 3.0
+	#.
+	#Determines if the guided fuze can seek its target before it has began to fall
+	guidedFuzeSeekBeforeApex = false

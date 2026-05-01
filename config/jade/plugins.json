@@ -52,12 +52,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "ars_nouveau": {
-    "mob_jar": true
-  },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -75,12 +69,6 @@
     "entity": true,
     "entity_variant": true
   },
-  "jadeaddons.lootr": {
-    "info": true
-  },
-  "supplementaries": {
-    "hat_stand": true
-  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
@@ -96,10 +84,6 @@
     "jade_chamber": true,
     "jade_wireless": true
   },
-  "appliedcreate": {
-    "grid_node_state": true,
-    "power_storage": true
-  },
   "balm": {
     "jade": true
   },
@@ -114,5 +98,24 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "jadeaddons.lootr": {
+    "info": true
+  },
+  "supplementaries": {
+    "hat_stand": true
+  },
+  "appliedcreate": {
+    "grid_node_state": true,
+    "power_storage": true
+  },
+  "corpse": {
+    "corpse": true
   }
 }
