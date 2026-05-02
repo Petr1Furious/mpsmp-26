@@ -160,6 +160,8 @@
 	custom_configured_screen = true
 	#unfunny
 	"I am very boring and I don't want any Easter Egg" = false
+	#Disables Amendments suggestion screen
+	no_amendments_screen = false
 
 #Game tweaks
 [tweaks]
