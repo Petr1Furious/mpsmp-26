@@ -1,0 +1,16 @@
+filename = 'neoorigins-2.0.20+1.21.1.jar'
+name = 'Neo Origins'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e72af4eb15c11705d7d66392733d62d4d1af3ebc8bea0bbeb1ce23190a711655d10ac5b5fc1ad8c888527a0eff8d274c6d52649ed24eabf3454374b0f7be1037'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/RUtQ9kfe/versions/Od0iPZsk/neoorigins-2.0.20%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'RUtQ9kfe'
+version = 'Od0iPZsk'
