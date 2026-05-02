@@ -1,16 +1,16 @@
-filename = 'createtransmission-1.1.1+neoforge-create6-1.21.1.jar'
-name = 'Create: Transmission!'
+filename = 'createtransmission-1.1.2+neoforge-create6-1.21.1.jar'
+name = 'Create: Transmission'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '4884ed199576000c8679111b7cb3b22ed4c1d5f2d0213e81fad9758fcce6cb932a19f7de91d8671e351b21cd0fdce532128c82cc6420ce6356ce064577518b6b'
+hash = 'ce78f7a0bacff34ca1cfcac2b840047c8fcc2ed478173efa9dcb74f1bcc9c373b1a789ea0171363afaaf6ea3505d386cbfb3ec7351566cbdc0ce96d61ce24299'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/QFCkBuIh/versions/ESns8wZ9/createtransmission-1.1.1%2Bneoforge-create6-1.21.1.jar'
+url = 'https://cdn.modrinth.com/data/QFCkBuIh/versions/jLaVyTXV/createtransmission-1.1.2%2Bneoforge-create6-1.21.1.jar'
 
 [update.modrinth]
 mod-id = 'QFCkBuIh'
-version = 'ESns8wZ9'
+version = 'jLaVyTXV'

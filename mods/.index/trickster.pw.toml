@@ -1,0 +1,16 @@
+filename = 'trickster-2.0.0-beta.35.jar'
+name = 'Trickster'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '638b92136cbbca99750a22847c5eb6c807d1c84b293489ff50638a322fac9ace9894f5641e4f036ef2269ce7aee9cad1364ac4ed474c20b32e2f970ac512be23'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZdEfcqro/versions/rLfJa4cg/trickster-2.0.0-beta.35.jar'
+
+[update.modrinth]
+mod-id = 'ZdEfcqro'
+version = 'rLfJa4cg'
