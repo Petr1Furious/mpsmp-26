@@ -1,0 +1,16 @@
+filename = 'origins-0.1-alpha.4.jar'
+name = 'Origins (NeoForge)'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'alpha'
+
+[download]
+hash = '4f6e02350dfc5e215ac89d2abbfd52ead955bed6a9a94accbcc2cfaae7fa038b3ea3ef97e6e2d64f36da49e43f86758523cc569e642a330ea018865dc9f3974c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/QaMa6tXQ/versions/DHPbMQto/origins-0.1-alpha.4.jar'
+
+[update.modrinth]
+mod-id = 'QaMa6tXQ'
+version = 'DHPbMQto'
