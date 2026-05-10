@@ -28,11 +28,11 @@
 	#Define the maximum walk speed increase. Values are divided by 10 before use.
 	# Default: 60
 	# Range: 10 ~ 100
-	quantumArmorMaxWalkSpeed = 60
+	quantumArmorMaxWalkSpeed = 10
 	#Define the maximum sprint speed increase. Values are divided by 10 before use.
 	# Default: 80
 	# Range: 10 ~ 150
-	quantumArmorMaxSprintSpeed = 80
+	quantumArmorMaxSprintSpeed = 10
 	#Define the maximum increase in step height.
 	# Default: 3
 	# Range: 1 ~ 5
@@ -52,7 +52,7 @@
 	#Define the maximum speed boost of the Flight Card.
 	# Default: 10
 	# Range: 1 ~ 15
-	quantumArmorMaxFlightSpeed = 10
+	quantumArmorMaxFlightSpeed = 1
 	#Define the evasion % chance of the evasion card.
 	# Default: 30
 	# Range: 0 ~ 100

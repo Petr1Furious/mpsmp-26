@@ -105,6 +105,9 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "create_mechanical_spawner": {
+    "data": true
+  },
   "jadeaddons.lootr": {
     "info": true
   },
