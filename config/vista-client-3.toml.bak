@@ -45,21 +45,7 @@
 		render_debug = false
 		#Attempts to disable iris shaders in the live feed view
 		iris_off_hack = true
-		#Distant Horizons compatibility lod render quality
-		#Allowed Values: OFF, LOW, MED, HIGH
-		distant_horizons_LOD = "OFF"
 
-	[television.wave_gate]
-		#Enable FFmpeg use. This is needed if you want to use the Wave Gate
-		ffmpeg_enabled = true
-		#Scale factor for web images resolution
-		# Default: 8
-		# Range: 1 ~ 32
-		resolution_scale = 8
-		#Scaling mode for web images
-		#Allowed Values: STRETCH, FIT_WIDTH, FIT_HEIGHT, CONTAIN, COVER
-		scaling_mode = "COVER"
-		#Enable bilinear sampling for rescaled images. Enable for a less pixelated look
-		bilinear_sampling = false
-		#A list of regex which will filter out valid URLs. At least one of these must match for a URL video to work
-		save_urls = []
+	[television.wip]
+		#enable wip features
+		enable_wip = false

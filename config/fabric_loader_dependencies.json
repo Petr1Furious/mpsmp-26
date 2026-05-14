@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "overrides": {
+    "voxyserver": {
+      "-depends": {
+        "fabricloader": "IGNORED"
+      }
+    }
+  }
+}
