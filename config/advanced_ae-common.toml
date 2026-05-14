@@ -28,11 +28,11 @@
 	#Define the maximum walk speed increase. Values are divided by 10 before use.
 	# Default: 60
 	# Range: 10 ~ 100
-	quantumArmorMaxWalkSpeed = 10
+	quantumArmorMaxWalkSpeed = 20
 	#Define the maximum sprint speed increase. Values are divided by 10 before use.
 	# Default: 80
 	# Range: 10 ~ 150
-	quantumArmorMaxSprintSpeed = 10
+	quantumArmorMaxSprintSpeed = 20
 	#Define the maximum increase in step height.
 	# Default: 3
 	# Range: 1 ~ 5
